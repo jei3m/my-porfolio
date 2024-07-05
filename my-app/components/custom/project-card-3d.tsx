@@ -20,7 +20,7 @@ export function ProjectCard3d({ title, type, description, imageUrl, githubUrl, d
     return (
         <CardContainer className="inter-var">
             <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] sm:w-[30rem] h-auto w-auto rounded-xl p-6 border">
-                <CardItem translateZ="50" className="w-full mt-4">
+                <CardItem translateZ="60" className="w-full mt-4">
                     <AspectRatio ratio={16 / 9} className="bg-muted">
                         <Image
                             src={imageUrl}
@@ -32,28 +32,28 @@ export function ProjectCard3d({ title, type, description, imageUrl, githubUrl, d
                 </CardItem>
                 <CardItem
                     as="h3"
-                    translateZ="60"
+                    translateZ="70"
                     className="scroll-m-20 text-2xl font-semibold tracking-tight mt-4"
                 >
                     {title}
                 </CardItem>
                 <CardItem
                     as="p"
-                    translateZ="60"
+                    translateZ="70"
                     className="text-sm text-muted-foreground"
                 >
                     {type}
                 </CardItem>
                 <CardItem
                     as="p"
-                    translateZ="50"
+                    translateZ="60"
                     className="leading-7 [&:not(:first-child)]:mt-6"
                 >
                     {description}
                 </CardItem>
                 {skills && (
                     <CardItem
-                        translateZ="40"
+                        translateZ="50"
                         className="flex gap-2 flex-wrap mt-6"
                     >
                         {skills.map((skill) => (
@@ -64,7 +64,7 @@ export function ProjectCard3d({ title, type, description, imageUrl, githubUrl, d
                 <div className="flex justify-between items-center mt-10">
                     {githubUrl && (
                         <CardItem
-                            translateZ={30}
+                            translateZ={40}
                         >
                             <Link href={githubUrl} target="_blank" passHref>
                                 <Button variant="link">
@@ -76,7 +76,7 @@ export function ProjectCard3d({ title, type, description, imageUrl, githubUrl, d
                     )}
                     {demoUrl && (
                         <CardItem
-                            translateZ={30}
+                            translateZ={40}
                         >
                             <Link href={demoUrl} target="_blank" passHref>
                                 <Button>
