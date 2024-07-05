@@ -5,7 +5,7 @@ import Head from "next/head";
 
 export default function Projects() {
     return (
-        <section id="projects" className="flex flex-col items-center justify-center dark:bg-black bg-white dark:bg-dot-white/[0.4] bg-dot-black/[0.2]">
+        <section id="projects" className="flex flex-col items-center justify-center dark:bg-black bg-white dark:bg-dot-white/[0.3] bg-dot-black/[0.3]">
 
 
             <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>

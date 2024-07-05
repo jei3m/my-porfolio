@@ -67,7 +67,7 @@ export function Aboutme() {
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
        
         
-        <br/><br/>
+        
         <h2 style={{ fontFamily: "'DM Serif Display', serif" }} className={cn("md:text-4xl text-xl text-white relative z-20 scroll-m-20 text-xl font-extrabold tracking-tight lg:text-5xl text-center")}>
           
           About Me
