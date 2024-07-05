@@ -2,9 +2,6 @@
 import React from "react";
 import { StickyScroll } from "../components/ui/sticky-scroll-reveal";
 import Image from "next/image";
-import { Card } from '@nextui-org/react';
-import { Boxes } from "../components/ui/background-boxes";
-import { cn } from "@/utils/cn";
 
 const content = [
   {
@@ -48,25 +45,18 @@ const content = [
     ),
   },
 ];
-
-export function Aboutme() {
+export function Aboutme2() {
   return (
-    
-      <div className="h-100 relative w-full overflow-hidden bg-black flex flex-col items-center justify-center rounded-lg">
-       <div className="absolute inset-0 w-full h-full bg-black z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
-       
-        <Boxes />
-        <br/><br/>
-        <h2 className={cn("md:text-4xl text-xl text-white relative z-20 scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl text-center")}>
-          
-          About Me
-          
-        </h2>
-        <div className="p-10">
-          <StickyScroll content={content} />
-        </div>
-        <br/>
-      </div>
-    
+   <div>
+    <br/><br/>
+     <h2 className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl text-center">
+       About Me
+       </h2>
+    <div className="p-10">
+      <StickyScroll content={content} />
+    </div>
+   </div>
   );
 }
+
+//className="dark:bg-black bg-white  dark:bg-dot-white/[0.5] bg-dot-black/[0.2]"

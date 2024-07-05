@@ -7,8 +7,8 @@ import Projects from "@/components/projects";
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import Image from "next/image";
 import {Separator} from "@/components/ui/separator";
-import { Aboutme } from "@/components/Aboutme";
 import Contact from "@/components/contact";
+import { Aboutme } from "@/components/Aboutme";
 
 export default function Home() {
   return (
