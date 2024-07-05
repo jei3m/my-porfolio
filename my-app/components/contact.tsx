@@ -19,7 +19,7 @@ export default function Contact() {
                 >
                     <br/>
                     <p className="leading-7">
-                        If you&apos;d like to get in touch with me, feel free to reach out on LinkedIn or my email and I&apos;ll get back to you whenever I can.
+                        If you&apos;d like to get in touch with me, feel free to reach out on email and I&apos;ll get back to you whenever I can.
                     </p>
                 </Reveal>
                 <div className="flex justify-center gap-4">
