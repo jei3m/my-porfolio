@@ -23,7 +23,7 @@ export default function Hero() {
           Justin Miguel
         </div>
         <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
-           Yes, that's me.
+           Yes, that&apos;s me.
         </div>
         <Button size="md" variant="flat" className="bg-black dark:bg-white rounded-full w-fit text-white dark:text-black px-4 py-2">
           Learn More.
