@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Card } from '@nextui-org/react';
 import { Boxes } from "../components/ui/background-boxes";
 import { cn } from "@/utils/cn";
+import Head from "next/head";
 
 const content = [
   {
@@ -53,12 +54,21 @@ export function Aboutme() {
   return (
     
       <div className="h-100 relative w-full overflow-hidden bg-black flex flex-col items-center justify-center rounded-lg overflow-hidden h-[50rem] w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center">
+        
+        <Head>
+                <link
+                href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
+                rel="stylesheet"
+                />
+                </Head>
+
+
         {/* Radial gradient for the container to give a faded look */}
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
        
         
         <br/><br/>
-        <h2 className={cn("md:text-4xl text-xl text-white relative z-20 scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl text-center")}>
+        <h2 style={{ fontFamily: "'DM Serif Display', serif" }} className={cn("md:text-4xl text-xl text-white relative z-20 scroll-m-20 text-xl font-extrabold tracking-tight lg:text-5xl text-center")}>
           
           About Me
           

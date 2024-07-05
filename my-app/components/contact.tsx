@@ -7,24 +7,31 @@ import { IoMailOpenOutline } from "react-icons/io5";
 import { IoIosMail } from "react-icons/io";
 import { Boxes } from "./ui/background-boxes";
 import { cn } from "@/utils/cn";
+import Head from "next/head";
 
 export default function Contact() {
     return (
         <div className="h-100 relative w-full overflow-hidden bg-black flex flex-col items-center justify-center rounded-lg">
+                    <Head>
+                <link
+                href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
+                rel="stylesheet"
+                />
+                </Head>
         <div className="absolute inset-0 w-full h-full bg-black z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
        
         <Boxes />
         <section id="contact" className="flex flex-col items-center justify-center gap-4 sm:py-48 py-24">
             <div className="w-full max-w-screen-md px-4 sm:px-6 lg:px-8 text-center">
-                <h2 className={cn("text-white relative z-20 scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl")}>
+                <h2 style={{ fontFamily: "'DM Serif Display', serif" }} className={cn("text-white relative z-20 scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-5xl")}>
                     Get In Touch
                 </h2>
                 <Reveal
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0, transition: { duration: 0.4 } }}
                 >
-                    <br/>
-                    <p className={cn("leading-7 text-s text-white relative z-20 scroll-m-20 tracking-tight")}>
+                    {/* <br/> */}
+                    <p className={cn("dark:text-neutral-200 py-4 md:text-lg leading-7 text-s text-white relative z-20 scroll-m-20 tracking-tight")}>
                         If you&apos;d like to get in touch with me, feel free to reach out on email and I&apos;ll get back to you whenever I can.
                     </p>
                 </Reveal>

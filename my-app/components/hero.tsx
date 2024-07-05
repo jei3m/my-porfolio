@@ -9,6 +9,7 @@ import MagicButton from "./MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { HeroHighlight } from "./ui/hero-highlight";
+import Head from "next/head";
 
 
 
@@ -16,9 +17,16 @@ export function Hero() {
   return (
 
     
-    
     <div className="overflow-hidden h-[60rem] w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center">
       {/* Radial gradient for the container to give a faded look */}
+
+   
+      <Head>
+      <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
+      rel="stylesheet"
+     />
+      </Head>
 
       <Spotlight
         className="-top-60 left-0 md:left-60 md:-top-55"
@@ -46,9 +54,11 @@ export function Hero() {
 
  
        <br/><br/>
-        <h1 className="text-4xl md:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-8">
-         This is <br /> Justin Miguel.
+        <h1 style={{ fontFamily: "'DM Serif Display', serif" }} className="text-4xl md:text-8xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-8">
+         <span className="md:text-7xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">This is</span> <br /> Justin Miguel.
         </h1>
+
+        
 
         <div className="text-base lg:text-2xl dark:text-neutral-200 py-4">
           He dreams big, aims high, and has goals to achieve.

@@ -1,13 +1,24 @@
 import projects from '@/lib/projects.json';
 import { Reveal } from './custom/reveal';
 import { ProjectCard3d} from './custom/project-card-3d'; // Importing ProjectCardProps interface if available
+import Head from "next/head";
 
 export default function Projects() {
     return (
         <section id="projects" className="flex flex-col items-center justify-center dark:bg-black bg-white dark:bg-dot-white/[0.4] bg-dot-black/[0.2]">
+
+
             <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+            
+            <Head>
+                <link
+                href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
+                rel="stylesheet"
+                />
+                </Head>
+
             <br/><br/><br/>
-            <h2 className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl">
+            <h2 style={{ fontFamily: "'DM Serif Display', serif" }} className="scroll-m-20 font-bold tracking-tight lg:text-5xl">
                 Projects Done
             </h2>
             <div className="flex-wrap flex justify-center gap-x-10 row-gap-2 max-w-screen-lg">
