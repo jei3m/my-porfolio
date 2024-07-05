@@ -5,6 +5,7 @@ import Head from "next/head";
 
 export default function Projects() {
     return (
+        <div className="flex flex-col overflow-x-hidden overflow-hidden">
         <section id="projects" className="flex flex-col items-center justify-center dark:bg-black bg-white dark:bg-dot-white/[0.3] bg-dot-black/[0.3]">
 
 
@@ -43,5 +44,6 @@ export default function Projects() {
                 ))}
             </div>
         </section>
+        </div>
     );
 }
