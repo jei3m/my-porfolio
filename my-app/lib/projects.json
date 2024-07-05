@@ -1,0 +1,95 @@
+[
+    {
+        "title": "Lorem ipsum is placeholder text",
+        "description": "A simple project I made during my studies at Holy Angel University as a Computer Engineering student.",
+        "type": "School Project",
+        "imageUrl": "/assets/img/UMRCP.png",
+        "githubUrl": "",
+        "demoUrl": "https://umrcp.vercel.app",
+        "skills": [
+            "TypeScript",
+            "NextJS",
+            "TRPC",
+            "Tailwind",
+            "Material UI",
+            "Prisma",
+            "MySQL",
+            "Figma",
+            "PlanetScale",
+            "Resend",
+            "Google Cloud Bucket",
+            "Vercel"
+        ]
+    },
+
+    {
+        "title": "Lorem ipsum is placeholder text",
+        "description": "A simple project I made during my studies at Holy Angel University as a Computer Engineering student.",
+        "type": "School Project",
+        "imageUrl": "/assets/img/UMRCP.png",
+        "githubUrl": "",
+        "demoUrl": "https://umrcp.vercel.app",
+        "skills": [
+            "TypeScript",
+            "NextJS",
+            "TRPC",
+            "Tailwind",
+            "Material UI",
+            "Prisma",
+            "MySQL",
+            "Figma",
+            "PlanetScale",
+            "Resend",
+            "Google Cloud Bucket",
+            "Vercel"
+        ]
+    },
+    
+    {
+        "title": "Lorem ipsum is placeholder text",
+        "description": "A simple project I made during my studies at Holy Angel University as a Computer Engineering student.",
+        "type": "School Project",
+        "imageUrl": "/assets/img/UMRCP.png",
+        "githubUrl": "",
+        "demoUrl": "https://umrcp.vercel.app",
+        "skills": [
+            "TypeScript",
+            "NextJS",
+            "TRPC",
+            "Tailwind",
+            "Material UI",
+            "Prisma",
+            "MySQL",
+            "Figma",
+            "PlanetScale",
+            "Resend",
+            "Google Cloud Bucket",
+            "Vercel"
+        ]
+    },
+
+        {
+        "title": "Lorem ipsum is placeholder text",
+        "description": "A simple project I made during my studies at Holy Angel University as a Computer Engineering student.",
+        "type": "School Project",
+        "imageUrl": "/assets/img/UMRCP.png",
+        "githubUrl": "",
+        "demoUrl": "https://umrcp.vercel.app",
+        "skills": [
+            "TypeScript",
+            "NextJS",
+            "TRPC",
+            "Tailwind",
+            "Material UI",
+            "Prisma",
+            "MySQL",
+            "Figma",
+            "PlanetScale",
+            "Resend",
+            "Google Cloud Bucket",
+            "Vercel"
+        ]
+    }
+
+    
+]
