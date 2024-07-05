@@ -15,7 +15,7 @@ export default function Home() {
  
 
    
-      <div className="flex flex-col overflow-x-hidden">
+      <div className="flex flex-col overflow-x-hidden overflow-hidden">
         {/* <Header/> */}
         <Hero />
         <Separator/>
