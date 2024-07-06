@@ -11,6 +11,12 @@ export const StickyScroll = ({
   content: {
     title: string;
     description: string;
+    description2: string;
+    description3: string;
+    description4: string;
+    description5: string;
+    description6: string;
+    description7: string;
     content?: React.ReactNode | any;
   }[];
   contentClassName?: string;
@@ -94,6 +100,12 @@ export const StickyScroll = ({
                 className="text-kg text-slate-300 max-w-sm mt-10"
               >
                 {item.description}
+                <br/>{item.description2}
+                <br/>{item.description3}
+                <br/>{item.description4}
+                <br/>{item.description5}
+                <br/>{item.description6}
+                <br/>{item.description7}
               </motion.p>
             </div>
           ))}

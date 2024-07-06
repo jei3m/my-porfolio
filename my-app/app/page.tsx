@@ -9,6 +9,7 @@ import Image from "next/image";
 import {Separator} from "@/components/ui/separator";
 import Contact from "@/components/contact";
 import { Aboutme } from "@/components/Aboutme";
+import Experiences from "@/components/experiences";
 
 export default function Home() {
   return (
@@ -18,9 +19,11 @@ export default function Home() {
       <div className="flex flex-col overflow-x-hidden overflow-hidden">
         {/* <Header/> */}
         <Hero />
-        <Separator/>
+        {/* <Separator/> */}
+        <Experiences/>
+        {/* <Separator/> */}
         <Projects/>
-        <Separator/>
+        {/* <Separator/> */}
         <Aboutme/>
         <Separator/>
         <Contact/>

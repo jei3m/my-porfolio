@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Introduction",
+        "company": "",
+        "date": "Justin Miguel",
+        "description": "I'm a passionate and dedicated computer engineering student with a focus on creating both innovative software and hardware solutions. My experience spans multiple domains, from firmware installation to ESP32 devices, web development, computer building and troubleshooting, and also basic device repair to common cellphone issues like LCD and battery replacement. I am continuously studying the current trends in both hardware and software development. Hoping one day, I'll be given the opportunity to work within those developments.",
+        "skills": [
+
+        ]
+    },
+    {
+        "title": "Background",
+        "company": "",
+        "date": "Justin Miguel",
+        "description": "My overall background as a computer engineering student comes with a strong foundation in both hardware and software. Whether porting intricate firmware like 'Marauder' for ESP32 devices, or working on web development with HTML, CSS, React.js, and Next.js, with a touch of the Django REST framework. I'm also experienced with various hardware components with Arduino, Raspberry Pi, and I can build computers, do basic troubleshooting on both the hardware and software side.",
+        "skills": [
+            "REST API",
+            "TypeScript",
+            "NextJS",
+            "ReactJS",
+            "C++",
+            "Arduino",
+            "Aceternity",
+            "ESP32",
+            "Raspberry Pi"
+        ]
+    },
+    {
+        "title": "Highlights",
+        "company": "",
+        "date": "Justin Miguel",
+        "description": "I thrive on turning ideas into reality through the creation of different projects. Here are a few highlights of my work: I have ported the Marauder firmware onto my own ESP32 development board, which enables Wi-Fi/Bluetooth penetration capabilities. In addition to my hardware and firmware skills, I am actively learning and honing my expertise in HTML, CSS, React.js, and Next.js. But, I can also do back-end functions with the Django REST framework.",
+        "skills": [
+
+        ]
+    },
+
+    {
+        "title": "Hobbies/Skills",
+        "company": "",
+        "date": "Justin Miguel",
+        "description": "I am passionate about keyboard building and modding, as well as PC building and optimizing Windows software. I also have experience in mobile device repair, including replacing common parts. My interests include working on hardware projects like the ESP32 and playing table tennis as a student athlete. I am dedicated to web development, actively working on projects, and continuously studying new programming languages. Above all, I strive to constantly learn and expand my knowledge in all areas of technology.",
+        "skills": [
+
+        ]
+    }
+]

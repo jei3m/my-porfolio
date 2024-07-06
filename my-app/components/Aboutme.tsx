@@ -11,8 +11,20 @@ const content = [
   {
     title: "Introduction",
     description:
-      "Hello! I'm a passionate and dedicated computer engineer with a focus on creating innovative software solutions. My expertise spans across multiple domains, including custom boot software development, TFT screen display projects, and full-stack web development using Next.js and Next UI.",
-    content: (
+      "I'm a passionate and dedicated computer engineering student with a focus on creating both innovative software and hardware solutions. My experience spans multiple domains, from firmware installation to ESP32 devices, web development, computer building and troubleshooting, and also basic device repair to common cellphone issues like LCD and battery replacement. I am continuously studying the current trends in both hardware and software development. Hoping one day, I'll be given the opportunity to work within those developments.",
+      description2:
+      "",
+      description3:
+      "",
+      description4:
+      "",
+      description5:
+      "",
+      description6:
+      "",
+      description7:
+      "",
+      content: (
       <div className="h-full w-full flex items-center justify-center text-white">
         Introduction
       </div>
@@ -21,8 +33,20 @@ const content = [
   {
     title: "Background",
     description:
-      "With a strong foundation in computer engineering, I have honed my skills through a combination of formal education and hands-on experience. My journey in this field has equipped me with a deep understanding of both hardware and software aspects, allowing me to tackle complex challenges with a holistic approach.",
-    content: (
+      "My overall background as a computer engineering student comes with a strong foundation in both hardware and software. Whether porting intricate firmware like 'Marauder' for ESP32 devices, or working on web development with HTML, CSS, React.js, and Next.js, with a touch of the Django REST framework. I'm also experienced with various hardware components with Arduino, and I can build computers, and do basic troubleshooting on both the hardware and software side.",
+      description2:
+      "",
+      description3:
+      "",
+      description4:
+      "",
+      description5:
+      "",
+      description6:
+      "",
+      description7:
+      "",
+      content: (
       <div className="h-full w-full flex items-center justify-center text-white">
       Background
       </div>
@@ -31,7 +55,19 @@ const content = [
   {
     title: "Highlights",
     description:
-      "I thrive on turning ideas into reality through meticulously crafted projects. Here are a few highlights of my work: I have ported the Marauder firmware onto my own ESP32 device, enabling network penetration capabilities and the ability to disable 2.4GHz WiFi routers. In addition to my hardware and firmware skills, I am actively learning and honing my expertise in HTML, CSS, and Next.js.",
+    "I thrive on turning ideas into reality through the creation of different projects. Here are a few highlights of my work: I have ported the Marauder firmware onto my own ESP32 development board, which enables Wi-Fi/Bluetooth penetration capabilities. In addition to my hardware and firmware skills, I am actively learning and honing my expertise in HTML, CSS, React.js, and Next.js. But, I can also do back-end functions with the Django REST framework.",
+    description2:
+    "",
+    description3:
+    "",
+    description4:
+    "",
+    description5:
+    "",
+    description6:
+    "",
+    description7:
+    "",
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
         Highlights
@@ -39,12 +75,24 @@ const content = [
     ),
   },
   {
-    title: "Journey",
-    description:
-      "My journey as a computer engineer is fueled by a passion for innovation and a relentless pursuit of excellence. With a strong foundation in both hardware and software, I am dedicated to pushing the boundaries of technology. Whether crafting intricate firmware like 'Marauder' for ESP32 devices or delving into the intricacies of web development with HTML, CSS, and Next.js. Each project not only enhances my technical skills but also reflects my commitment to solving real-world problems with technology.",
-    content: (
+    title: "Hobbies/Skills",
+      description:
+      "• Keyboard building and modding.",
+      description2:
+      "• PC building and Windows software optimization.",
+      description3:
+      "• Mobile device repair, replacing common parts.",
+      description4:
+      "• Working on hardware projects like ESP32.",
+      description5:
+      "• Playing table tennis as I am a student athlete.",
+      description6:
+      "• Web development, working on projects, and studying languages.",
+      description7:
+      "• To constantly learn about anything there is about technology.",
+      content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Journey
+        Hobbies/Skills
       </div>
     ),
   },
@@ -76,7 +124,7 @@ export function Aboutme() {
         <div className="p-10">
           <StickyScroll content={content} />
         </div>
-        <br/>
+
       </div>
     
   );

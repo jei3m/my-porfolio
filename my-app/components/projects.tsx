@@ -5,11 +5,14 @@ import Head from "next/head";
 
 export default function Projects() {
     return (
-        <div className="flex flex-col overflow-x-hidden overflow-hidden">
-        <section id="projects" className="flex flex-col items-center justify-center dark:bg-black bg-white dark:bg-dot-white/[0.3] bg-dot-black/[0.3]">
+        <div className="flex flex-col overflow-x-hidden overflow-hidden w-full dark:bg-black bg-white  dark:bg-dot-white/[0.4] bg-grid-black/[0.2] relative flex items-center justify-center">
+        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>   
+        
+        <section id="projects" className="flex flex-col items-center justify-center">
+        
+        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
 
-
-            <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+            
             
             <Head>
                 <link
@@ -19,7 +22,7 @@ export default function Projects() {
                 </Head>
 
             <br/><br/><br/>
-            <h2 style={{ fontFamily: "'DM Serif Display', serif" }} className="scroll-m-20 font-bold tracking-tight lg:text-5xl">
+            <h2 style={{ fontFamily: "'DM Serif Display', serif" }} className="scroll-m-20 font-bold tracking-tight lg:text-5xl bg-clip-text text-white z-20">
                 Projects Done
             </h2>
             <div className="flex-wrap flex justify-center gap-x-10 row-gap-2 max-w-screen-lg">
@@ -43,6 +46,7 @@ export default function Projects() {
                     </Reveal>
                 ))}
             </div>
+           
         </section>
         </div>
     );
