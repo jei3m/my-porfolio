@@ -16,7 +16,7 @@ export default function Experiences() {
                 />
                 </Head>
 
-            <h2 style={{ fontFamily: "'DM Serif Display', serif" }} className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-5xl text-center w-full z-20">
+            <h2 id="experience" style={{ fontFamily: "'DM Serif Display', serif" }} className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-5xl text-center w-full z-20">
                 College Experiences
             </h2>
             <br/>

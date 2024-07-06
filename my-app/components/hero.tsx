@@ -70,9 +70,9 @@ export function Hero() {
         </p>
 
           <br/>
-        <a href="#projects">
+        <a href="#experience">
             <MagicButton
-              title="Show my work"
+              title="Learn More"
               icon={<FaLocationArrow />}
               position="right"
             />
