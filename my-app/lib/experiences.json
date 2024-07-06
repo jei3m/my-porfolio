@@ -23,22 +23,29 @@
         ]
     },
     {
-        "title": "Highlights",
-        "company": "",
-        "date": "Justin Miguel",
-        "description": "I thrive on turning ideas into reality through the creation of different projects. Here are a few highlights of my work: I have ported the Marauder firmware onto my own ESP32 development board, which enables Wi-Fi/Bluetooth penetration capabilities. In addition to my hardware and firmware skills, I am actively learning and honing my expertise in HTML, CSS, React.js, and Next.js. But, I can also do back-end functions with the Django REST framework.",
+        "title": "3rd Year College",
+        "company": "• Holy Angel University",
+        "date": "S.Y. 2023-2024",
+        "description": "Throughout the first semester of this school year, we were tasked with creating a tourism website, and by the end of the project, we'll have to present it to the local government of the designated place of our website. We mostly focused on the front-end aspect of web development, specifically using only HTML and CSS. We were given an individual task as well to create an about me website using those two languages mentioned earlier, though there is some JavaScript involved for the animations. This is the school year that I got exposed to Arduino, we started to use different types of sensors, and components and got to write and upload code to our module using the Arduino IDE.",
         "skills": [
-
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Arduino",
+            "C++"
         ]
     },
 
     {
-        "title": "Hobbies/Skills",
-        "company": "",
-        "date": "Justin Miguel",
-        "description": "I am passionate about keyboard building and modding, as well as PC building and optimizing Windows software. I also have experience in mobile device repair, including replacing common parts. My interests include working on hardware projects like the ESP32 and playing table tennis as a student athlete. I am dedicated to web development, actively working on projects, and continuously studying new programming languages. Above all, I strive to constantly learn and expand my knowledge in all areas of technology.",
+        "title": "4th Year College",
+        "company": "• Holy Angel University",
+        "date": "2024-2025",
+        "description": "As of this very moment, I am working on personal projects, studying languages, and also learning more about there is when it comes to technology. This was the time I got interested in electronic projects, using different microcontrollers, and development boards. My first-ever project with that mentioned is the ESP32 Marauder. Wherein I ported the firmware online, making it compatible with my ESP32 development board, and flashed it successfully. Time will tell what projects I will work on, what languages I'll study, and what components I'll tinker with. I'm always invested in learning all things about tech and applying them in the very projects I will work on in the future.",
         "skills": [
-
+            "NextJS",
+            "Tailwind CSS",
+            "ESP32",
+            "C++"
         ]
     }
 ]

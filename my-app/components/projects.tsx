@@ -6,11 +6,11 @@ import Head from "next/head";
 export default function Projects() {
     return (
         <div className="flex flex-col overflow-x-hidden overflow-hidden w-full dark:bg-black bg-white  dark:bg-dot-white/[0.4] bg-grid-black/[0.2] relative flex items-center justify-center">
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>   
-        
+        {/* <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>   
+         */}
         <section id="projects" className="flex flex-col items-center justify-center">
         
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+        
 
             
             

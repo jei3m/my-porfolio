@@ -20,9 +20,10 @@ export default function Home() {
         <Header/>
         <Hero />
         <Experiences/>
-        {/* <Projects/> */}
+        <Projects/>
+        <Separator/>
         <Aboutme/>
-        {/* <Separator/> */}
+       
         
         {/* <Separator/> */}
         

@@ -42,3 +42,64 @@ body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+
+/* Custom CSS for shadow animation */
+@keyframes shadow-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7), 0 0 0 10px rgba(100, 100, 100, 0.87);
+    transform: scale(1);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0), 0 0 0 40px rgba(255, 0, 150, 0);
+    transform: scale(1.05);
+  }
+}
+
+/* Rotating animations */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Tailwind classes */
+.shadow-card-animation {
+  animation: shadow-pulse 1.5s ease-in-out infinite alternate;
+}
+
+/* Floating animations */
+@keyframes floating {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7), 0 0 0 10px rgba(143, 143, 143, 0.4);
+    transform: translateY(-10px);
+  }
+}
+
+/* .shadow-card-animation {
+  animation: floating 1s ease-in-out infinite;
+} */
+
+/* Blinking animations */
+@keyframes shadow-blink {
+  0%, 100% {
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+  }
+  50% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7), 0 0 0 10px rgba(175, 175, 175, 0.4);
+  }
+}
+
+
+/* Adjust the card dimensions based on screen width */
+@media (max-width: 768px) {
+  .contact-card {
+    padding: 40px;
+  }
+}
