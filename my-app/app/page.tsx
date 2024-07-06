@@ -19,12 +19,14 @@ export default function Home() {
       <div className="flex flex-col overflow-x-hidden overflow-hidden">
         {/* <Header/> */}
         <Hero />
-        {/* <Separator/> */}
         <Experiences/>
-        {/* <Separator/> */}
         <Projects/>
-        {/* <Separator/> */}
         <Aboutme/>
+        {/* <Separator/> */}
+        
+        {/* <Separator/> */}
+        
+        {/* <Separator/> */}
         <Separator/>
         <Contact/>
 

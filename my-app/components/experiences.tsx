@@ -17,7 +17,7 @@ export default function Experiences() {
                 </Head>
 
             <h2 style={{ fontFamily: "'DM Serif Display', serif" }} className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-5xl text-center w-full z-20">
-                Ano ilalagay ko dito
+                College Experiences
             </h2>
             <br/>
             <div className="flex flex-col gap-4 md:hidden">
