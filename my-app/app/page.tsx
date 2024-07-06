@@ -17,10 +17,10 @@ export default function Home() {
 
    
       <div className="flex flex-col overflow-x-hidden overflow-hidden">
-        {/* <Header/> */}
+        <Header/>
         <Hero />
         <Experiences/>
-        <Projects/>
+        {/* <Projects/> */}
         <Aboutme/>
         {/* <Separator/> */}
         
