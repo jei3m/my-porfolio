@@ -74,7 +74,7 @@ export default function Contact() {
               <div className="text-center">
                 <a href="#contacts">
                   <Button color="primary" size="lg" variant="ghost">
-                    Resume
+                   Résumé
                   </Button>
                 </a>
               </div>
