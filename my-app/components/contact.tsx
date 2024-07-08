@@ -43,7 +43,7 @@ export default function Contact() {
       
       <div className="flex justify-center items-center min-h-screen p-4 sm:p-8 md:p-12">
         <div className="relative w-full max-w-md sm:max-w-lg md:max-w-xl">
-          <h2 style={{ fontFamily: "'DM Serif Display', serif" }} className={cn("text-white relative z-20 scroll-m-20 text-3xl lg:text-4xl lg:text-5xl font-extrabold tracking-tight text-center")}>
+          <h2 style={{ fontFamily: "DM Serif Display, serif" }} className={cn("text-white relative z-20 scroll-m-20 text-3xl lg:text-4xl lg:text-5xl font-extrabold tracking-tight text-center")}>
             Contact Me
           </h2>
           <br />
