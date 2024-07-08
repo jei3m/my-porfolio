@@ -15,10 +15,9 @@ import Head from "next/head";
 
 export function Hero() {
   return (
-    <div className="overflow-hidden h-[60rem] w-full dark:bg-black dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center">
+    <div className="p-4 relative w-full overflow-hidden bg-black flex flex-col items-center justify-center rounded-lg">
+    <div className="overflow-hidden h-[60rem] w-full dark:bg-black bg-white dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center">
       {/* Radial gradient for the container to give a faded look */}
-
-   
       <Head>
       <link
       href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
@@ -84,6 +83,6 @@ export function Hero() {
   {/* //  </AuroraBackground> */}
 
   </div>
-  
+  </div>
   );
 }
