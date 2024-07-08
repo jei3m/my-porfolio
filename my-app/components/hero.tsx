@@ -15,7 +15,7 @@ import Head from "next/head";
 
 export function Hero() {
   return (
-    <div className="p-4 relative w-full overflow-hidden bg-black flex flex-col items-center justify-center rounded-lg">
+   
     <div className="overflow-hidden h-[60rem] w-full dark:bg-black bg-white dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center">
       {/* Radial gradient for the container to give a faded look */}
       <Head>
@@ -32,9 +32,6 @@ export function Hero() {
 
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
  
-    {/* // <AuroraBackground> */}
-     {/* <div className="h-[50rem] w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center">
-      <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div> */}
       <motion.div
         initial={{ opacity: 0.0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -83,6 +80,6 @@ export function Hero() {
   {/* //  </AuroraBackground> */}
 
   </div>
-  </div>
+  
   );
 }
