@@ -1,5 +1,5 @@
-'use client'
-import React, { useState } from 'react';
+"use client"
+import React, { useState } from "react";
 import Link from "next/link";
 import { Reveal } from "./custom/reveal";
 import MagicButton from "./MagicButton";
@@ -9,25 +9,25 @@ import { IoIosMail } from "react-icons/io";
 import { Boxes } from "./ui/background-boxes";
 import { cn } from "@/utils/cn";
 import Head from "next/head";
-import Image from 'next/image';
-import '@/app/globals.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faUser, faPhone, faCalendarAlt, faFile } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedin, faMedium, faCodepen, faFacebook, faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
-import { Button } from '@nextui-org/button';
+import Image from "next/image";
+import "@/app/globals.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faUser, faPhone, faCalendarAlt, faFile } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin, faMedium, faCodepen, faFacebook, faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
+import { Button } from "@nextui-org/button";
 
 export default function Contact() {
   const [currentImage, setCurrentImage] = useState(1);
   const images = [
-    '/picofme1.png',
-    '/picofme2.png',
-    '/picofme3.png',
-    '/picofme4.png',
-    '/picofme5.png',
-    '/picofme6.png',
-    '/picofme7.png',
-    '/picofme8.png',
-    '/picofme9.png',
+    "/picofme1.png",
+    // '/picofme2.png',
+    // '/picofme3.png',
+    // '/picofme4.png',
+    // '/picofme5.png',
+    // '/picofme6.png',
+    // '/picofme7.png',
+    // '/picofme8.png',
+    // "/picofme9.png",
   ];
 
   return (
@@ -79,9 +79,9 @@ export default function Contact() {
               <br/>
               If you&apos;d like to contact me, feel free to reach out on my socials!
               <br/><br/>
-              <div className='text-center'>
+              <div className="text-center">
                 <a href="#contacts">
-                  <Button color="primary" size='lg' variant="ghost">
+                  <Button color="primary" size="lg" variant="ghost">
                     Résumé
                   </Button>
                 </a>
