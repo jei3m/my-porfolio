@@ -116,11 +116,9 @@ export function Aboutme() {
        
         
         
-        <h2 style={{ fontFamily: "'DM Serif Display', serif" }} className={cn("md:text-4xl text-xl text-white relative z-20 scroll-m-20 text-xl font-extrabold tracking-tight lg:text-5xl text-center")}>
-          
-          About Me
-          
-        </h2>
+        <h2 id="experience" style={{ fontFamily: "'DM Serif Display', serif" }} className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-5xl text-center w-full z-20">
+              About Me
+            </h2>
         <div className="p-10">
           <StickyScroll content={content} />
         </div>

@@ -1,5 +1,5 @@
 'use client'
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Link from "next/link";
 import { Reveal } from "./custom/reveal";
 import MagicButton from "./MagicButton";
@@ -16,9 +16,6 @@ import { faEnvelope, faUser, faPhone, faCalendarAlt, faFile } from '@fortawesome
 import { faGithub, faLinkedin, faMedium, faCodepen, faFacebook, faInstagramSquare } from '@fortawesome/free-brands-svg-icons';
 import { Button } from '@nextui-org/button';
 
-
-
-
 export default function Contact() {
   const [currentImage, setCurrentImage] = useState(1);
   const images = [
@@ -33,16 +30,8 @@ export default function Contact() {
     '/picofme9.png',
   ];
 
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setCurrentImage((prevImage) => (prevImage % 9) + 1);
-  //   }, 2000);
-
-  //   return () => clearInterval(interval);
-  // }, []);
-
   return (
-    <div className="h-100 relative w-full overflow-hidden bg-black flex flex-col items-center justify-center rounded-lg">
+    <div className="p-4 relative w-full overflow-hidden bg-black flex flex-col items-center justify-center rounded-lg">
       <Head>
         <link
           href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
@@ -52,15 +41,15 @@ export default function Contact() {
       <div id="contacts" className="absolute inset-0 w-full h-full bg-black z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
       <Boxes />
       
-      <div className="flex justify-center items-center h-screen">
-        
-        <div className="relative">
-        <h2 style={{ fontFamily: "'DM Serif Display', serif" }} className={cn("text-white relative z-20 scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-5xl text-center")}>
-                    Contact Me
-                </h2> <br/> <br/>
-          <div className="bg-white rounded-lg overflow-hidden p-12 shadow-card-animation flex flex-col items-center w-196">
-            
-            <div className="w-48 h-48 relative mb-4">
+      <div className="flex justify-center items-center min-h-screen p-4 sm:p-8 md:p-12">
+        <div className="relative w-full max-w-md sm:max-w-lg md:max-w-xl">
+          <h2 style={{ fontFamily: "'DM Serif Display', serif" }} className={cn("text-white relative z-20 scroll-m-20 text-3xl lg:text-4xl lg:text-5xl font-extrabold tracking-tight text-center")}>
+            Contact Me
+          </h2>
+          <br />
+          <br />
+          <div className="bg-white rounded-lg overflow-hidden p-6 sm:p-8 md:p-12 shadow-card-animation flex flex-col items-center w-full">
+            <div className="w-20 h-20 sm:w-32 sm:h-32 md:w-48 md:h-48 relative mb-4">
               <Image
                 src={images[currentImage - 1]}
                 alt="Profile"
@@ -69,33 +58,34 @@ export default function Contact() {
                 className="rounded-full"
               />
             </div>
-            <h1 className="text-3xl font-bold text-gray-900 mb-2">Justin Miguel Reyes</h1>
-            <p className="text-base font-bold text-gray-900 mb-4">BsCpE Student</p>
-            <div className="flex flex-wrap justify-center items-center mb-4 ml-8 text-black text-2xl">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2">Justin Miguel Reyes</h1>
+            <p className="text-sm sm:text-base md:text-lg font-bold text-gray-900 mb-4">BsCpE Student</p>
+            <div className="flex flex-wrap justify-center items-center mb-4 text-black text-xl sm:text-2xl md:text-3xl">
               <a href="mailto:justinmiguel.rys03@gmail.com" className="flex items-center mb-2 mr-4">
-                <FontAwesomeIcon icon={faEnvelope} className="mr-4" />
+                <FontAwesomeIcon icon={faEnvelope} className="mr-2 sm:mr-4" />
               </a>
               <a href="https://www.facebook.com/justinmiguel.reyes/" target="_blank" rel="noopener noreferrer" className="flex items-center mb-2 mr-4">
-              <FontAwesomeIcon icon={faFacebook} className="mr-4" />
+                <FontAwesomeIcon icon={faFacebook} className="mr-2 sm:mr-4" />
               </a>
               <a href="https://github.com/jei3m" target="_blank" rel="noopener noreferrer" className="flex items-center mb-2 mr-4">
-                <FontAwesomeIcon icon={faGithub} className="mr-4" />
+                <FontAwesomeIcon icon={faGithub} className="mr-2 sm:mr-4" />
               </a>
               <a href="https://www.instagram.com/_justinmiguel/" target="_blank" rel="noopener noreferrer" className="flex items-center mb-2 mr-4">
-                <FontAwesomeIcon icon={faInstagramSquare} className="mr-4" />
+                <FontAwesomeIcon icon={faInstagramSquare} className="mr-2 sm:mr-4" />
               </a>
             </div>
-            <div className="text-base text-gray-700 text-center">
+            <div className="text-sm sm:text-base md:text-lg text-gray-700 text-center">
               <p>+63 985-184-5658</p>
               <br/>
-              
-            ㅤIf you&apos;d like to contact me, feel free to reach out on my socials!ㅤ
+              If you'd like to contact me, feel free to reach out on my socials!
               <br/><br/>
               <div className='text-center'>
-              <a href="#contacts">
-              <Button color="primary" size='lg' variant="ghost">
-              Résumé </Button> </a> </div>
-              
+                <a href="#contacts">
+                  <Button color="primary" size='lg' variant="ghost">
+                    Résumé
+                  </Button>
+                </a>
+              </div>
             </div>
           </div>
         </div>

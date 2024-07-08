@@ -7,7 +7,7 @@ export default function Experiences() {
     return (
         <div className="flex flex-col overflow-x-hidden overflow-hidden w-full dark:bg-black bg-white  dark:bg-grid-white/[0.1] bg-dot-black/[0.2] relative flex items-center justify-center">
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>   
-        <section id="experiences" className="flex flex-col items-start justify-start gap-4 sm:py-32 sm:mx-24 md:mx-32 lg:mx-64 xl:mx-96 py-16">
+        <section id="experiences" className="p-4 flex flex-col items-start justify-start gap-4 sm:py-32 sm:mx-24 md:mx-32 lg:mx-64 xl:mx-96 py-16">
 
                 <Head>
                 <link

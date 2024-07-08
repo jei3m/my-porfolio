@@ -5,15 +5,11 @@ import Head from "next/head";
 
 export default function Projects() {
     return (
-        <div className="flex flex-col overflow-x-hidden overflow-hidden w-full dark:bg-black bg-white  dark:bg-dot-white/[0.4] bg-grid-black/[0.2] relative flex items-center justify-center">
+        <div className="p-8 flex flex-col overflow-x-hidden overflow-hidden w-full dark:bg-black bg-white  dark:bg-dot-white/[0.4] bg-grid-black/[0.2] relative flex items-center justify-center">
         {/* <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>   
          */}
         <section id="projects" className="flex flex-col items-center justify-center">
-        
-        
-
-            
-            
+    
             <Head>
                 <link
                 href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
@@ -22,7 +18,7 @@ export default function Projects() {
                 </Head>
 
             <br/><br/><br/>
-            <h2 style={{ fontFamily: "'DM Serif Display', serif" }} className="scroll-m-20 font-bold tracking-tight lg:text-5xl bg-clip-text text-white z-20">
+            <h2 id="experience" style={{ fontFamily: "'DM Serif Display', serif" }} className="scroll-m-20 font-extrabold tracking-tight text-3xl lg:text-4xl lg:text-5xl text-center w-full z-20">
                 Projects Done
             </h2>
             <div className="flex-wrap flex justify-center gap-x-10 row-gap-2 max-w-screen-lg">
