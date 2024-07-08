@@ -20,14 +20,6 @@ export default function Contact() {
   const [currentImage, setCurrentImage] = useState(1);
   const images = [
     "/picofme1.png",
-    // '/picofme2.png',
-    // '/picofme3.png',
-    // '/picofme4.png',
-    // '/picofme5.png',
-    // '/picofme6.png',
-    // '/picofme7.png',
-    // '/picofme8.png',
-    // "/picofme9.png",
   ];
 
   return (
