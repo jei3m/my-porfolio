@@ -77,7 +77,7 @@ export default function Contact() {
             <div className="text-sm sm:text-base md:text-lg text-gray-700 text-center">
               <p>+63 985-184-5658</p>
               <br/>
-              If you'd like to contact me, feel free to reach out on my socials!
+              If you&apos;d like to contact me, feel free to reach out on my socials!
               <br/><br/>
               <div className='text-center'>
                 <a href="#contacts">
